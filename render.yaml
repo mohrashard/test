@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: app
-    env: python
-    buildCommand: ""
-    startCommand: python app.py
-    envVars:
-      - key: MONGO_URI
-        value: mongodb+srv://mohrashard:F2ILssTNoFVt7apQ@test.uqsbsrv.mongodb.net/?retryWrites=true&w=majority&appName=test
